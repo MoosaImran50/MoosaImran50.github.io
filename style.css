@@ -1,0 +1,194 @@
+body {
+    background-color: #f4f6f4;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    font-size: 0.84rem;
+    font-weight: 700;
+    background-color: #f4f5f6;
+}
+
+.subNav {
+    background-color: white;
+    font-size: 0.76rem;
+    font-weight: 500;
+    color: rgb(91, 102, 120);
+}
+
+.subNavToggler {
+    font-size: 13px;
+    border: none;
+}
+
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#logo {
+    width: 200px;
+}
+
+#searchBtn {
+    font-size: 0.84rem;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.vr {
+    color: rgba(0, 0, 0, 0.545);
+}
+
+.orangeHover:hover {
+    color: rgb(255, 115, 0);
+}
+
+#orange{
+    color: rgb(255, 115, 0);
+}
+
+.containerMargin {
+    margin: 0 13%;
+}
+
+#heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+    color: rgb(74, 57, 172)
+}
+
+#subHeading {
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+
+.searchBarBtn {
+    background-color: rgb(74, 57, 172);
+    border-color: transparent;
+}
+
+.profilePic {
+    border-radius: 50%;
+}
+
+.personTitle {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.personName {
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: rgb(110, 110, 110);
+}
+
+.personRating {
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: rgb(110, 110, 110);
+}
+
+.personReviewCount {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(110, 110, 110);
+}
+
+.card {
+    margin: 50px;
+    line-height: 20px;
+}
+
+@media (max-width: 991px) {
+    #searchBtn {
+        margin-top: 1.5rem;
+        margin-bottom: 0.1rem;
+        padding: 0!important;
+        border: none!important;
+    }
+    .y-mg {
+        margin: 0.2rem 0;
+    }
+}
+
+@media (max-width: 1800px) {
+    .containerMargin {
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .containerMargin {
+        margin: 0 6%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .containerMargin {
+        margin: 0 4%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .containerMargin {
+        margin: 0 2%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .containerMargin {
+        margin: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    #subHeading {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .input-group input.form-control {
+        /* Remove classes for shorter height */
+        padding: 0.5rem 0!important;
+        border-top-left-radius: 6px!important;
+        border-bottom-left-radius: 6px!important;
+        padding: 0.5rem 1rem!important;
+    }
+
+    .input-group button.searchBarBtn {
+        /* Remove classes for shorter height */
+        padding: 0.5rem 0!important;
+        border-top-right-radius: 6px!important;
+        border-bottom-right-radius: 6px!important;
+        padding: 0.5rem 1rem!important;
+    }
+}
+
+@media (max-width: 700px) {
+    #heading {
+        font-size: 3.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #heading {
+        font-size: 2.15rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #heading {
+        font-size: 1.7rem;
+    }
+}
