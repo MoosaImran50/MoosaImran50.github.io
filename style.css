@@ -35,6 +35,37 @@ nav {
     font-size: 0.84rem;
     font-weight: 700;
     border-radius: 3px;
+    color: rgb(52, 168, 202);
+    border-color: rgb(52, 168, 202)!important;
+}
+
+.dropdown-menu {
+    border-radius: 3%;
+    border-color: transparent;
+}
+
+.dropdown-menu p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: rgba(71,73,79,.6);
+    background-color: #f5f7fa;
+}
+
+.dropdown-item {
+    font-size: 0.8rem;
+}
+
+.dropdown-item b {
+    color: rgb(52, 168, 202)
+}
+
+.dropdown-item span {
+    font-size: 0.7rem;
+    color: rgba(71,73,79,.6);
+}
+
+.dropdown-item:hover {
+    color: rgb(52, 168, 202);
 }
 
 .vr {
