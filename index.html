@@ -52,21 +52,40 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navConnecter">
                 <div class="navbar-nav column-gap-2">
-                    <a id="searchBtn" href="#" class="nav-link text-info border border-info px-3 py-2">
-                        <svg class="text-info" fill="currentColor" width="24" height="24" viewBox="0 0 1024 1024"
-                            class="">
-                            <path
-                                d="M755.499 695.168l128 128c7.41 7.665 11.977 18.12 11.977 29.641 0 23.564-19.103 42.667-42.667 42.667-11.521 0-21.976-4.567-29.653-11.989l0.012 0.012-128-128c-7.41-7.665-11.977-18.12-11.977-29.641 0-23.564 19.103-42.667 42.667-42.667 11.521 0 21.976 4.567 29.653 11.989l-0.012-0.012zM426.667 85.333c188.513 0 341.333 152.82 341.333 341.333s-152.82 341.333-341.333 341.333v0c-188.513 0-341.333-152.82-341.333-341.333s152.82-341.333 341.333-341.333v0zM426.667 170.667c-141.385 0-256 114.615-256 256s114.615 256 256 256v0c141.385 0 256-114.615 256-256s-114.615-256-256-256v0z">
-                            </path>
-                        </svg>
-                        SEARCH
-                        <svg class="text-info" fill="currentColor" width="16" height="16" viewBox="0 0 1024 1024"
-                            class="">
-                            <path
-                                d="M222.080 350.080c8.687-8.689 20.688-14.063 33.945-14.063 10.737 0 20.65 3.525 28.646 9.482l-0.127-0.091 5.376 4.672 222.080 222.016 222.080-222.080c8.683-8.667 20.67-14.026 33.908-14.026 10.753 0 20.68 3.536 28.682 9.508l-0.126-0.090 5.376 4.672c8.689 8.687 14.063 20.688 14.063 33.945 0 10.737-3.525 20.65-9.482 28.646l0.091-0.127-4.672 5.376-256 256c-8.687 8.689-20.688 14.063-33.945 14.063-10.737 0-20.65-3.525-28.646-9.482l0.127 0.091-5.376-4.672-256-256c-8.674-8.684-14.038-20.676-14.038-33.92s5.364-25.236 14.038-33.921l-0.001 0.001z">
-                            </path>
-                        </svg>
-                    </a>
+                    <li class="nav-item dropdown">
+                        <a id="searchBtn" href="#" class="nav-link border px-3 py-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg class="text-info" fill="#34a8ca" width="24" height="24" viewBox="0 0 1024 1024"
+                                class="">
+                                <path
+                                    d="M755.499 695.168l128 128c7.41 7.665 11.977 18.12 11.977 29.641 0 23.564-19.103 42.667-42.667 42.667-11.521 0-21.976-4.567-29.653-11.989l0.012 0.012-128-128c-7.41-7.665-11.977-18.12-11.977-29.641 0-23.564 19.103-42.667 42.667-42.667 11.521 0 21.976 4.567 29.653 11.989l-0.012-0.012zM426.667 85.333c188.513 0 341.333 152.82 341.333 341.333s-152.82 341.333-341.333 341.333v0c-188.513 0-341.333-152.82-341.333-341.333s152.82-341.333 341.333-341.333v0zM426.667 170.667c-141.385 0-256 114.615-256 256s114.615 256 256 256v0c141.385 0 256-114.615 256-256s-114.615-256-256-256v0z">
+                                </path>
+                            </svg>
+                            SEARCH
+                            <svg class="text-info" fill="#34a8ca" width="16" height="16" viewBox="0 0 1024 1024"
+                                class="">
+                                <path
+                                    d="M222.080 350.080c8.687-8.689 20.688-14.063 33.945-14.063 10.737 0 20.65 3.525 28.646 9.482l-0.127-0.091 5.376 4.672 222.080 222.016 222.080-222.080c8.683-8.667 20.67-14.026 33.908-14.026 10.753 0 20.68 3.536 28.682 9.508l-0.126-0.090 5.376 4.672c8.689 8.687 14.063 20.688 14.063 33.945 0 10.737-3.525 20.65-9.482 28.646l0.091-0.127-4.672 5.376-256 256c-8.687 8.689-20.688 14.063-33.945 14.063-10.737 0-20.65-3.525-28.646-9.482l0.127 0.091-5.376-4.672-256-256c-8.674-8.684-14.038-20.676-14.038-33.92s5.364-25.236 14.038-33.921l-0.001 0.001z">
+                                </path>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu py-0">
+                            <p class="ps-3 py-2 mb-0">Buyers can</p>
+                            <li><a class="dropdown-item py-2" href="#">Search <b>offers</b><br>
+                                    <span>to buy now</span></a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider my-0 mx-3">
+                            </li>
+                            <li><a class="dropdown-item py-2" href="#">Search <b>freelancers</b><br>
+                                    <span>to request a proposal</span></a>
+                            </li>
+                            <p class="ps-3 py-2 mb-0">Freelancers can</p>
+                            <li><a class="dropdown-item py-2" href="#">Search <b class="blue">projects</b><br>
+                                    <span>to quote on</span></a>
+                            </li>
+                        </ul>
+                    </li>
                     <a href="#" class="nav-link y-mg orangeHover">HOW IT WORKS</a>
                     <div class="vr d-none d-lg-inline mx-3"></div>
                     <a href="#" class="nav-link y-mg orangeHover">LOG IN</a>
@@ -89,16 +108,16 @@
                     </svg></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav column-gap-3">
-                    <a class="nav-link" href="#">Technology & Programming</a>
-                    <a class="nav-link" href="#">Writing & Translation</a>
-                    <a class="nav-link" href="#">Design</a>
-                    <a class="nav-link" href="#">Digital Marketing</a>
-                    <a class="nav-link" href="#">Video, Photo & Image</a>
-                    <a class="nav-link" href="#">Business</a>
-                    <a class="nav-link" href="#">Music & Audio</a>
-                    <a class="nav-link" href="#">Marketing, Branding & Sales</a>
-                    <a class="nav-link" href="#">Social Media</a>
+                <div class="navbar-nav column-gap-3 mt-3 mt-lg-0">
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Technology & Programming</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Writing & Translation</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Design</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Digital Marketing</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Video, Photo & Image</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Business</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Music & Audio</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Marketing, Branding & Sales</a>
+                    <a class="nav-link ms-4 ms-lg-0" href="#">Social Media</a>
                 </div>
             </div>
         </div>
